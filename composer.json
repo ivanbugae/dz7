@@ -1,0 +1,19 @@
+{
+    "name": "alex/untitled",
+    "authors": [
+        {
+            "name": "Alexndr Navrotskiy",
+            "email": "Navrotskiy.alex@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "aigletter/interfaces": "dev-master",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\Db\\": "Db"
+        }
+    }
+}
